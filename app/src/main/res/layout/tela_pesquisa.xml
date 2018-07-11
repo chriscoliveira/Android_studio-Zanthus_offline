@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   tools:context="com.christian.zanthus.PesquisaFalhas">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtpesquisa"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Pesquisa"
+                    android:inputType="textPersonName"
+                    android:text="" />
+
+            </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/lvListagem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:listSelector="#2f4f4f"></ListView>
+        </LinearLayout>
+        >
+
+    </LinearLayout>
+</HorizontalScrollView>

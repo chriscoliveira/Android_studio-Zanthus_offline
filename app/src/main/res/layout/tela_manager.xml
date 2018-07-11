@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.christian.zanthus.PesquisaFalhas">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lista do Manager Utilizado nas Lojas"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center|top"
+            android:text="
+10.128.0.19\n
+CT08\n
+CT16\n
+CT17\n
+CT31\n
+CT32
+"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center|top"
+            android:background="#6666"
+            android:text="
+10.128.0.20\n
+CT03\n
+CT06\n
+CT14\n
+CT15\n
+CT18\n
+CT20\n
+CT34\n
+CB04
+"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center|top"
+            android:text="
+10.128.0.21\n
+CT09\n
+CT13\n
+CT25\n
+CT27\n
+CT28\n
+CT30\n
+CT41\n
+CT42\n
+CT43\n
+CT44\n
+CB02\n
+AG01\n
+AG02
+"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:gravity="center|top"
+
+            android:background="#6666"
+            android:text="
+10.128.0.22\n
+CT33\n
+CT35\n
+CT36\n
+CT37\n
+CT38\n
+CT39\n
+CB05\n
+AG03
+"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

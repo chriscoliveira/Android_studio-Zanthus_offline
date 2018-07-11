@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+############################# \n
+Exibindo rota SAT de outra loja:\n
+\n
+1)Remover arquivo CTSAT_LOCAL.XML para quando exibir rota de outra loja.\n
+\n
+\n
+#############################\n
+Falta relatório gerencial:\n
+\n
+1) para loja com ecf serial (EPSON), verificar se o EMUL.INI (nas pasta /Zanthus/Zeus/pdvJava e /Zanthus/Zeus/lib) está com a linha abaixo:\n
+\n
+_FW_PORTA_COMUNIC=USB\n
+FW_VELOC_SERIAL=38400\n
+\n
+e se na pasta pdvJava há o arquivo ECF9E.CFG com a porta de comunicação serial correta.\n
+\n
+2) para loja com ecf USB, verificar se o EMUL.INI (nas pasta /Zanthus/Zeus/pdvJava e /Zanthus/Zeus/lib) está com a linha abaixo:\n
+\n
+FW_PORTA_COMUNIC=USB\n
+\n
+Após a alteração, reiniciar ou a aplicação ou o pdv.\n
+\n
+\n
+#############################\n
+Erro ao tentar inserir itens na Nota Fiscal:\n
+\n
+1) excluir a pasta moduloPHPPDV da pasta /Zanthus/Zeus/pdvJava/GERAL/SINCRO/WEB e copiar uma nova.\n
+\n
+\n
+#############################\n
+Arquivos de estacionamento:\n
+\n
+1) CT14 usa o LINKC000.CFG que fica na pasta path_comum.\n
+\n
+2) CT13 usa o FIMTRN1300.CFG e ZFIMTRN1300.CFG que fica no path_comum.\n
+\n
+\n
+#############################\n
+Arquivos do totem:\n
+\n
+1) RT0102150.CFG fica na path_comum.\n
+\n
+\n
+#############################\n
+Vinculação do AC não confere:\n
+\n
+1) verificar na pasta moduloPHPPDV se não existe o arquivo sat_lab.conf que é usado pelo PDV Treinamento.\n
+\n
+\n
+#############################\n
+Ping não responde ao trocar HD de maquina:\n
+\n
+1) verificar com o comando 'ifconfig' se exibe as placas de rede; em caso negativo, alterar no /etc/network/interfaces a eth0 para eth1. Feito isso, digite: 'ifdown -a' e logo depois 'ifup -a'.\n
+\n
+\n
+#############################\n
+Falha 25317: Erro de rabbitmq ao tentar finalizar cupom:\n
+\n
+1) termine a aplicação de PDV e reinicie o rabbitmq com o comando: 'service rabbitmq restart' ou 'service rabbitmq force-reload' e depois inicie e aplicação e tente registrar um item e finalizar o cupom. Persistindo o erro, reinicie o PDV e refaça a venda novamente.\n
+\n
+\n
+#############################\n
+LED 'AC' do aparelho SAT não acende:\n
+\n
+1) verifique se o arquivo ZANSAT.CFG (/Zanthus/Zeus/ctsat) contém o código de ativação correto referente a sua Unidade.\n
+\n
+2) verifique se o aparelho SAT não esteja ligado na USB 3.0.\n
+\n
+\n
+#############################\n
+Lentidão ao imprimir cupom de PDV:\n
+\n
+1 - Mudar o arquivo DEPURECF.CFG (/Zanthus/Zeus/path_comum/GERALCFG) para ATIVO=0.\n
+2 - Remover a linha EXIBE_PASSO_VENDA do arquivo ECF9.CFG (/Zanthus/Zeus/path_comum/GERALCFG).\n
+3 - Adicionar no arquivo ZMWS0000.CFG (/Zanthus/Zeus/path_comum/GERALCFG e /Zanthus/Zeus/ctsat/) a linha 'flags_or=2'\n
+4 - Remover arquivo ZMWS1900.CFG do diretório pdvJava/\n
+\n
+Após os passos, reinicie o PDV.\n
+\n
+\n
+#############################\n
+Consultando a versão do moduloPHPPDV:\n
+1) No browser (seja pdv ou no servidor) digite o link substituindo IP-PDV pelo IP utilizado no PDV: http://IP-PDV:9090/moduloPHPPDV/info.php\n
+\n
+\n
+\n
+Erro 1230 - dados cadastrais invalidos:\n
+1) verificar se no arquivo NF_EMPRESA.XML os dados cadastrais da loja estão corretos.\n
+\n
+\n
+Tela de pagamento com cartão fecha e a transação fica pendente, tendo que repassar a compra duplicando o pagamento:\n
+1) verificar se as bibliotecas CLISITEF estão atualizadas\n
+\n
+\n
+Sat aparece como indisponivel em outros pdvs:\n
+1) excluir os arquivos SAT_LISTA.XML e SAT_ROTAS.TXT do diretório /Zanthus/Zeus/pdvJava e reiniciar o pdv. Após reinicio, executar a função 12475 para listar as rotas novamente.\n
+\n
+\n
+Erro ao criar links simbólicos para a pasta lib_ubu (comando ldconfig):\n
+1) verificar em '/etc/ld.so.conf.d/zanthus.conf' se existe a linha '/Zanthus/Zeus/lib_ubu'. Se não houver, inserir e executar a aplicação novamente para recriar os links.\n
+\n
+\n
+Para verificar as portas USB da CPU executar alguns dos comandos abaixo:\n
+1) watch -n1 lsusb lista em tempo real os dispositivos usb conectados.\n
+2) dmesg | grep usb -i lista todos os dispositivos conectados na cpu.\n
+"
+            android:textSize="16dp" />
+    </LinearLayout>
+</ScrollView>

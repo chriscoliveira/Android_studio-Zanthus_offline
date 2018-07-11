@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_importar"
+
+        android:showAsAction="ifRoom"
+        android:title="Importar">
+    </item>
+    <item
+        android:id="@+id/menu_funcoes"
+
+        android:title="Funcoes PDV">
+    </item>
+    <item
+        android:id="@+id/menu_falhas"
+
+        android:title="Perquisar falhas">
+    </item>
+
+</menu>

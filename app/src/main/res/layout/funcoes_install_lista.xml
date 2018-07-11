@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="##################################\n
+        # Funçes para ativar o PDV SAT\n #\n
+        ##################################\n
+        6060 → Ativa licença ECF \n
+        6066 → Verifica licença ECF \n
+        6450 → Configura Scanner Torre 1 - porta 6\n
+        6401 → Ativa Scanners \n
+        6451 → Configura Scanner Torre 2  - RTS 4\n
+        6401 → Ativa Scanners \n
+        6455 → Configura Scanner Mão - porta 14\n
+        6401 → Ativa Scanners \n
+        7250 → Configura Pinpad - tipo 21 porta 2\n
+        7201 → Ativa Pinpad \n
+        3401 → Ativa WebService \n
+        3501 → Ativa NF \n
+        3801 → Ativa Sitef no PDV \n
+        851 → Carga Completa \n
+        3810 → Testa comunicação com o Pinpad \n
+        3877 → Testa comunicação como Servidor Tef \n
+        685 → Configura terminal rede tef VOX \n
+        686 → Ativa terminal rede tef VOX \n
+        6301 → ativar fidelidade no pdv; \n
+        58 → Função para Ativar perfil do PDV, = 9 para utilizar recurso SAT, = 0 para usar ECF \n
+        12475 → Função para verificar Rotas SAT e SATs ativos \n
+        6201 → Função para ativar o QRCODE na impressora \n
+        6277 → Testar impressão QRCODE (escolher 1 na pŕoxima tela) \n
+        12501 → Função para Ativar Transmissão Fiscal \n
+        12451 → Função para Ativar LOG = log SAT 127 \n
+        9467 → Verifica Path_comum \n
+\n\n\n
+        6701 → Habilita balança checkout (Baurupar) \n
+        6750 → Configura balança checkout (Baurupar) \n
+        *Balança TOLEDO  *BALANCA=0  *PORTA=3  *ou   *Balanca FILIZOLA  *BALANCA=4  *PORTA=3 \n
+        6777 → Testa balança checkout (; ou X - pega peso) \n
+        8238 → Gera arquivo MFD com o periodo solicitado \n
+        8242 → Extrai CAT52 \n
+        9034 → Troca senha \n
+        9998 → Abre gaveta \n
+        151 → Abertura de caixa \n
+        155 → Saida operador \n
+        159 → Fechamento de caixa \n
+        179 → Recupera movimento de uma data \n
+        853 → Carga Parcial \n
+        859 → Carrega arquivos .CFG para configuração \n
+        201 → Emite Leitura X" />
+</LinearLayout>

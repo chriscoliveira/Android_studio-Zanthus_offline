@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/fc02b3a1cf3e0649972396490c42c0bc9ca18bd6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_c74b3b7b73350277d916d6733b1b9bbe57980529.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/8959950a759df5c31f3596fcde0bc2d152a57764/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_8e17d66caf0524a49aad50266b52f5bc80183dfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/a3c6112388245bc12128d4cdb9a8b4ee8ec0ed83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_cafb76d6b1d33b799c86eb4bd8f842f45c5ff69f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/a6c9de4656f550ca97aef4ae98453347b43426a8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_e4255bdf71c83afd263c2fb89d9a38d0e4524e80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/c6dd9b0f5d71233af7763cb5f0bc9b343e89a65f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_e83da2a55477ffa385837937c3b3cb33b02f66ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha9/constraint-layout-solver-1.0.0-alpha9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha9_c0ae78774c31584e1f73a548a8d0997413633531.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/707580664ae0b04ab9317c2db0dc6834196a5b7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_048c0f10bcea77946edaadd3b33874d0bcf8eb98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/532f140dd7a1f41721c14a2686fd5ec523898552/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_73bdc8cee888e2895da3c668d0720197652fa615.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/3ae1fe8734b05432f405cc4fbbef61add945c25d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_3b6c090a5d576ec2ee73a7bd722ff0cafffdf0b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/beff9080f16c52851af2f81d2c20dd85bd42d1c5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_f421fe060fbe4572104f079744d9cc73aa8fcbf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.android/build-cache/ab06e983c4a52a976d3a3e576b353d488356f701/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/classes_f050717a228d6d77911fb9a8a3c4221dcf99888d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/21220/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/25.3.1/bf8841d29fa39e077730e7a91222c2ce269fa7c9/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/media/21220/HD EXTERNO 500/Android/Zanthus/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_6e80c5ee1c8ffccd709d62f203dfc22595b204c9.jar" />
+    </item>
+
+</items>
